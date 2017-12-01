@@ -33,7 +33,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 
 * **Gustavo Girardon** - [gutogirardon](https://github.com/gutogirardon)
 * **Shaianne Veloso Ribeiro** - [Shairibeirols](https://github.com/Shairibeirols)
-* **Lincoln Pereira** - [gutogirardon](https://github.com/gutogirardon)
+* **Lincoln Pereira** - [lincolnpereira](https://github.com/lincolnpereira)
 * **Julielen Arnoud Dorneles** - [JulielenAD](https://github.com/JulielenAD)
 
 
