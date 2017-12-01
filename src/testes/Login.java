@@ -17,7 +17,7 @@ import utils.TestLinkUtils;
 public class Login {
 
 	public static WebDriver driver;
-	public static String url = "http://teste.com:8080/GerenciadorPampatec/";
+	public static String url = "http://ggirardon.com:8080/GerenciadorPampatec/";
 
 	@Before
 	public void openBrowser() throws MalformedURLException {
@@ -34,11 +34,11 @@ public class Login {
 			driver.get(url);
 
 			driver.findElement(By.id("formularioDeLogin:emailInput")).clear();
-			driver.findElement(By.id("formularioDeLogin:emailInput")).sendKeys("teste@gmail.com");
-			driver.findElement(By.id("formularioDeLogin:senhaInput")).sendKeys("teste");
+			driver.findElement(By.id("formularioDeLogin:emailInput")).sendKeys("ggirardon@gmail.com");
+			driver.findElement(By.id("formularioDeLogin:senhaInput")).sendKeys("Guto1508");
 			driver.findElement(By.id("formularioDeLogin:botaoLogin")).sendKeys(Keys.ENTER);
 
-			if (driver.findElement(By.linkText("Inï¿½cio")) == null) {
+			if (driver.findElement(By.linkText("Início")) == null) {
 				throw new Exception("PASSO 1: Nï¿½O FOI POSSï¿½VEL E ENCONTRAR O ELEMENTO" + " --- DENTRO DA Pï¿½GINA ----");
 			}
 
@@ -55,11 +55,11 @@ public class Login {
 			driver.get(url);
 
 			driver.findElement(By.id("formularioDeLogin:emailInput")).clear();
-			driver.findElement(By.id("formularioDeLogin:emailInput")).sendKeys("teste@gmail.com");
+			driver.findElement(By.id("formularioDeLogin:emailInput")).sendKeys("ggirardon@gmail.com");
 			driver.findElement(By.id("formularioDeLogin:senhaInput")).sendKeys("123");
 			driver.findElement(By.id("formularioDeLogin:botaoLogin")).sendKeys(Keys.ENTER);
 
-			if (driver.findElement(By.linkText("Inï¿½cio")) == null) {
+			if (driver.findElement(By.linkText("Início")) == null) {
 				throw new Exception("PASSO 1: Nï¿½O FOI POSSï¿½VEL E ENCONTRAR O ELEMENTO" + " --- DENTRO DA Pï¿½GINA ----");
 			}
 
