@@ -41,4 +41,4 @@ See also the list of [contributors](https://github.com/gutogirardon/Selenium-Tes
 
 ## License
 
-Coming.
+[MIT](https://github.com/gutogirardon/Selenium-Tests/blob/master/LICENSE)
