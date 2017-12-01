@@ -34,7 +34,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 * **Gustavo Girardon** - [gutogirardon](https://github.com/gutogirardon)
 * **Shaianne Veloso Ribeiro** - [Shairibeirols](https://github.com/Shairibeirols)
 * **Lincoln Pereira** - [gutogirardon](https://github.com/gutogirardon)
-* **Julielen Arnoud Dorneles** - [gutogirardon](https://github.com/gutogirardon)
+* **Julielen Arnoud Dorneles** - [JulielenAD](https://github.com/JulielenAD)
 
 
 See also the list of [contributors](https://github.com/gutogirardon/Selenium-Tests/graphs/contributors) who participated in this project.
