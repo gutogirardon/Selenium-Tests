@@ -33,7 +33,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 
 * **Gustavo Girardon** - [gutogirardon](https://github.com/gutogirardon)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/gutogirardon/Selenium-Tests/graphs/contributors) who participated in this project.
 
 ## License
 
